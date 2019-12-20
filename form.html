@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>회원가입</title>
+	<style>
+
+
+	li{
+		list-style-type: none;
+
+	}
+	#page{
+		width: 995px;
+		margin: 0 auto;
+/*		border: solid 1px black;*/
+	}
+	header{
+		width: 995px;
+		height: 150px;
+		margin: 0 auto;
+		border-bottom: solid 1px #cccccc;
+	
+	}
+	#logo{
+		float: left;
+	}
+
+
+	#top{
+				float: right;
+				margin: 30px 20px 0 0;
+				}
+	</style>
+</head>
+<body>
+
+	<div id='page'>
+		<header>
+			<div id='logo'>
+				<a href="file:///C:/Users/USER/Downloads/index.html"><img src="file:///C:/Users/USER/Downloads/img/main.PNG"></a>
+			</div>
+			<div id='top'>
+				<a href="file:///C:/Users/USER/Downloads/login.html">로그인</a> ｜ <a href="file:///C:/Users/USER/Downloads/form.html">회원가입</a> ｜ <a href="file:///C:/Users/USER/Downloads/menu.html">메뉴보기</a> ｜ <a href="file:///C:/Users/USER/Downloads/ERROR.html">주문하기<a> ｜ <a href="file:///C:/Users/USER/Downloads/ERROR2.html">회사소개<a>
+			</div>
+		</header><p>
+<br>
+
+	<form name=frm1>
+
+		<table align=center border=1 bordercolor=white bordercolorlight=gray cellspacing=0 cellpaddinhg=2 width=995px height=500px>
+		<tr bgcolor=#ececec align=center>
+			<td colspan=2> 회원가입 </td>
+		</tr>
+		<tr>
+			<td bgcolor=#ececec align=center>아이디</td>
+			<td>
+				<input type=text name=id size=12 maxlength=12>
+			</td>
+		</tr>
+		<tr>
+			<td bgcolor=#ececec align=center>패스워드</td>
+			<td><input type=password name=pw sizw=12 maxlegth=8></td>
+		</tr>
+		<tr>
+			<td bgcolor=#ececec align=center>성별</td>
+			<td>
+				<input type=radio name=sex value=1>남
+				<input type=radio name=sex value=2 checked>여
+			</td>
+		</tr>
+		<tr>
+			<td bgcolor=#ececec align=center>국적</td>
+			<td>
+				<input type=text value=대한민국 readonly>
+			</td>
+		</tr>
+
+		<tr>
+			<td bgcolor=#ececec align=center>휴대폰</td>
+			<td>
+				<select name=phone1>
+					<option value=1 SELECTED>010</option>
+					<option value=2>011</option>
+					<option value=2>016</option>
+					<option value=3>017</option>
+					<option value=4>018</option>
+					<option value=5>019</option>
+				</select>
+			-
+			<input type=textname name=phone2 size=3 maxlength=4>
+			-
+			<input type=text name=phone3 size=4 maxlength=4>
+			</td>
+		</tr>
+
+		<tr>
+			<td bgcolor=#ececec align=center>집전화</td>
+						<td>
+				<select name=phone1>
+					<option value=1 SELECTED>010</option>
+					<option value=2>011</option>
+					<option value=2>016</option>
+					<option value=3>017</option>
+					<option value=4>018</option>
+					<option value=5>019</option>
+				</select>
+			-
+			<input type=textname name=phone2 size=3 maxlength=4>
+			-
+			<input type=text name=phone3 size=4 maxlength=4>
+			</td>
+		</tr>
+
+		<!-- <tr>
+			<td bgcolor=#ececec align=center>가족사항</td>
+			<td>
+				<input type=checkbox name=familly1 value=1>조부모
+				<input type=checkbox name=familly2 value=1 checked >부모
+				<input type=checkbox name=familly3 value=1>형제자매
+				<input type=checkbox name=familly4 value=1>배우자
+				<input type=checkbox name=familly5 value=1>자식
+			</td>
+		</tr> -->
+		<!-- <tr>
+			<td bgcolor=#ececec align=center>소개글</td>
+			<td>
+				<textarea cols=50 rows=5 name=memo>관심분야에 대해 쓰세요</textarea>
+			</td>
+		</tr>
+ -->
+		<tr>
+			<td bgcolor=#ececec align=center>증명사진</td>
+			<td><input type=file size=40></td>
+		</tr>
+		<tr>
+			<td bgcolor=#ececec colspan=2 align=center>
+				<input type=submit value=가입하기>
+				<input type=reset value=다시작성>
+			</td>
+		</tr>
+	</table>
+	<br><br>
+	<section>
+		<img src="file:///C:/Users/USER/Downloads/img/C.PNG" width="995" height="200">
+			</section>
+</form>
+</body>
+</html>
